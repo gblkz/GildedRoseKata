@@ -7,4 +7,4 @@ from before.gilded_rose import (
 def test_fixme():
     item = Item("foo", 0, 0)
     update_quality([item])
-    assert "fixme" == item.name  # change fixme to foo.
+    assert "foo" == item.name  # changed fixme to foo.
