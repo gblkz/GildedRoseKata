@@ -3,6 +3,7 @@ from after.gilded_rose import (
     update_quality,
 )
 
+# Does Arjan use hidden errors?
 AGED_BRIE = "Aged Brie"
 
 
