@@ -29,4 +29,4 @@ if __name__ == "__main__":
         for item in items:
             print(item)
         print("")
-        GildedRose(items).update_quality()  # Why is this red in both before and after?
+        GildedRose(items).update_quality()
