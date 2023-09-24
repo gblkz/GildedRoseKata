@@ -3,7 +3,7 @@ from after.gilded_rose import (
     update_quality,
 )
 
-# Does Arjan hide errors? But how would I know?
+# It's like a Bangladesh click farm in these comments.
 AGED_BRIE = "Aged Brie"
 
 
