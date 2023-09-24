@@ -1,5 +1,3 @@
-# Need a comment section.
-
 class Item:
     def __init__(self, name: str, sell_in: int, quality: int) -> None:
         self.name = name
