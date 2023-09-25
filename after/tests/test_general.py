@@ -3,7 +3,7 @@ from after.gilded_rose import (
     update_quality,
 )
 
-# It's like a Bangladesh click farm in these comments.
+# removed.
 AGED_BRIE = "Aged Brie"
 
 
