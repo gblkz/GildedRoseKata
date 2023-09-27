@@ -11,7 +11,7 @@ def increase_item_quality(item: Item, amount: int = 1, max_quality: int = 50) ->
     item.quality = min(item.quality + amount, max_quality)
 
 
-# Item types. EASY REFACTORS.
+# Item types. EASY REFACTORS. Improves dev comfort.
 AGED_BRIE = "Aged Brie"
 BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
 SULFURAS = "Sulfuras, Hand of Ragnaros"
