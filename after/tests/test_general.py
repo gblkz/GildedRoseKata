@@ -3,7 +3,7 @@ from after.gilded_rose import (
     update_quality,
 )
 
-# added. And adding more to keep the promise.
+# added. I meant removing.
 AGED_BRIE = "Aged Brie"
 
 
