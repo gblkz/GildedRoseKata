@@ -12,6 +12,7 @@ def increase_item_quality(item: Item, amount: int = 1, max_quality: int = 50) ->
 
 
 # Item types. EASY REFACTORS. Improves dev comfort.
+# Convert all hard-coded values to variables and place at file beginning.
 AGED_BRIE = "Aged Brie"
 BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
 SULFURAS = "Sulfuras, Hand of Ragnaros"
