@@ -3,7 +3,8 @@ from after.gilded_rose import (
     update_quality,
 )
 
-# Figure out this part. Why is this variable here?
+# Figure out this part.
+# Why is this variable here?
 AGED_BRIE = "Aged Brie"
 
 
