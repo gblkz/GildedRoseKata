@@ -12,6 +12,7 @@ def increase_item_quality(item: Item, amount: int = 1, max_quality: int = 50) ->
 
 
 # EASY REFACTORS: Item types, improves dev comfort.
+# and some other thing.
 AGED_BRIE = "Aged Brie"
 BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
 SULFURAS = "Sulfuras, Hand of Ragnaros"
