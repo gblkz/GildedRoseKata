@@ -3,7 +3,7 @@ from after.gilded_rose import (
     update_quality,
 )
 
-# Why is this variable here?
+# Abstracted variables here instead of hard coded values in below tests.
 AGED_BRIE = "Aged Brie"
 
 
