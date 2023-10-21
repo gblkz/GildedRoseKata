@@ -11,7 +11,6 @@ def increase_item_quality(item: Item, amount: int = 1, max_quality: int = 50) ->
     item.quality = min(item.quality + amount, max_quality)
 
 
-# Abstracted variables here instead of hard coded values in below tests.
 AGED_BRIE = "Aged Brie"
 BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
 SULFURAS = "Sulfuras, Hand of Ragnaros"
