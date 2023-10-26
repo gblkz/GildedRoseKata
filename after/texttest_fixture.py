@@ -26,4 +26,4 @@ if __name__ == "__main__":
         for item in items:
             print(item)
         print("")
-        GildedRose(items).update_quality()  # Is this a deliberate typo? Watch Arjan video.
+        GildedRose(items).update_quality()  # Is this a deliberate typo?
