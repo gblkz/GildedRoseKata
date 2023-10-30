@@ -7,7 +7,7 @@ from after.gilded_rose import (
 AGED_BRIE = "Aged Brie"
 
 
-# Re-watch PyTest unit testing video.
+# Re-watch Arjan's PyTest unit testing video.
 def test_item_doesnt_change_name():
     item = Item("foo", 0, 0)
     update_quality([item])
