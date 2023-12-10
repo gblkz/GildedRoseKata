@@ -17,7 +17,7 @@ SULFURAS = "Sulfuras, Hand of Ragnaros"
 CONJURED = "Conjured Mana Cake"
 
 
-# Verify each method has unit test coverage.
+# Verify each method has PyTest unit test coverage.
 class ItemUpdater(Protocol):
     def update_sell_in(self, item: Item) -> None:
         ...
