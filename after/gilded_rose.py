@@ -18,6 +18,7 @@ CONJURED = "Conjured Mana Cake"
 
 
 # Verify each method has PyTest unit test coverage.
+# Create a PyTest Framework to support all my projects.
 class ItemUpdater(Protocol):
     def update_sell_in(self, item: Item) -> None:
         ...
