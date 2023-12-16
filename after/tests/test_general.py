@@ -3,7 +3,7 @@ from after.gilded_rose import (
     update_quality,
 )
 
-
+# Abstract the hard coded vars.
 AGED_BRIE = "Aged Brie"
 
 
