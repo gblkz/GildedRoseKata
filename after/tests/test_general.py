@@ -10,7 +10,6 @@ AGED_BRIE = "Aged Brie"
 def test_item_doesnt_change_name():
     item = Item("foo", 0, 0)
     update_quality([item])
-    # assert "foo" == item.name
     assert "foo" == item.name
 
 
