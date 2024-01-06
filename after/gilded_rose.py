@@ -10,7 +10,7 @@ def decrease_item_quality(item: Item, amount: int = 1) -> None:
 def increase_item_quality(item: Item, amount: int = 1, max_quality: int = 50) -> None:
     item.quality = min(item.quality + amount, max_quality)
 
-# Abstract variables from hard-code.
+# # Abstract variables from hard-code.
 AGED_BRIE = "Aged Brie"
 BACKSTAGE_PASSES = "Backstage passes to a TAFKAL80ETC concert"
 SULFURAS = "Sulfuras, Hand of Ragnaros"
