@@ -11,7 +11,7 @@ AGED_BRIE = "Aged Brie"
 def test_item_doesnt_change_name():
     item = Item("foo", 0, 0)
     update_quality([item])
-    assert "foo" == item.name
+    assert "foo" == item.name  # This is the only test in the before folder.
 
 
 def test_item_sell_in_decreases():
