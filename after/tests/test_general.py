@@ -8,6 +8,7 @@ AGED_BRIE = "Aged Brie"
 
 # Watch Arjan's video PyTest unit testing, then extend these.
 # Join his Discord and start reviewing other's submissions and questions.
+# Continue watching the Arjan video, edit these comments again later.
 def test_item_doesnt_change_name():
     item = Item("foo", 0, 0)
     update_quality([item])
