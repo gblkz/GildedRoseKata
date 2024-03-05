@@ -2,6 +2,8 @@ from typing import Iterable
 from item import Item
 
 
+# This is the BEFORE update_quality method. Many red flags:
+# Complex nested-if statements. Lots of hard coded names.
 def update_quality(items: Iterable[Item]):
     for item in items:
         if (
