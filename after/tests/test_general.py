@@ -8,7 +8,6 @@ AGED_BRIE = "Aged Brie"
 
 # Watch Arjan's video PyTest unit testing, then extend these and integrate with automation.
 # Watch for how Arjan executes his tests, then replicate for this project.
-# This is getting old.
 def test_item_doesnt_change_name():
     item = Item("foo", 0, 0)
     update_quality([item])
